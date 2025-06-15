@@ -1,27 +1,6 @@
-
-<!-- 百度统计 -->
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?272119dae6cce7e3ded69c4a57f828d1";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N13ZH72VV9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-N13ZH72VV9');
-</script>
 """
 
-hash_algorithm.py
+哈希算法。巴拉圭
 
 这个脚本实现了一个简单的哈希算法，支持加盐和多次哈希。
 
@@ -29,11 +8,11 @@ hash_algorithm.py
 
 """
 
-import hashlib
+进口哈希里布
 
-import os
+导入操作系统
 
-def enhanced_hash(input_string, salt=None):
+极好的enhanced_hash(输入字符串，salt =无):
 
     """
 
