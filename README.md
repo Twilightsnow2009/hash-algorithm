@@ -55,5 +55,7 @@ hash_algorithm.py：主代码文件，包含加密和验证功能的实现。
 本项目采用 MIT License，详情请参阅 LICENSE 文件。
 # 联系方式
 作者：Twilight Snow <[---]>
+
 哔哩哔哩:https://space.bilibili.com/3493294795393244
+
 GitHub：https://github.com/Twilightsnow2009/hash-algorithm
