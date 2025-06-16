@@ -45,11 +45,9 @@ print(f"验证结果: {'成功' if verification_result else '失败'}")
 # 项目结构
 hash-algorithm/
 ├── README.md
-├── .gitignore
 ├── requirements.txt
 └── hash_algorithm.py
 README.md：项目介绍文件，包含项目的描述、使用方法等。
-.gitignore：配置文件，用于指定忽略的文件或目录。
 requirements.txt：依赖文件，列出项目运行所需的依赖包（本项目无需依赖）。
 hash_algorithm.py：主代码文件，包含加密和验证功能的实现。
 # 开发与贡献
