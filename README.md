@@ -44,8 +44,11 @@ print(f"验证结果: {'成功' if verification_result else '失败'}")
 # 项目结构
 hash-algorithm/
 ├── README.md
+├──requirements.txt
 └── hash_algorithm.py
+
 README.md：项目介绍文件，包含项目的描述、使用方法等。
+requirements.txt：列出项目依赖的 Python 版本和第三方库。
 hash_algorithm.py：主代码文件，包含加密和验证功能的实现。
 # 开发与贡献
 欢迎任何对项目感兴趣的开发者参与贡献。你可以通过以下方式参与：
