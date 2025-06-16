@@ -36,9 +36,9 @@ def enhanced_hash(input_string, salt=None):
 
     hash_digest = hash_object.hexdigest()
 
-    # 进行多次哈希（这里进行 3 次）
+    # 进行多次哈希（这里进行 10000 次）
 
-    for _ in range(3):
+    for _ in range(10000):
 
         hash_digest = hashlib.sha256(hash_digest.encode('utf-8')).hexdigest()
 
